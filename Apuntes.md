@@ -127,16 +127,19 @@ Como dijo Aragorn:
 
 ### Código fuente
 
+**javascript**
 ```javascript
 var s = "Lenguaje javascript. Se realizará coloreado de sintaxis.";
 alert(s); 
 ```
 
+**python**
 ```python
 s = "Lenguaje Python. Se realizará coloreado de sintaxis."
 print s
 ```
 
+**ninguno**
 ```
 No se indica lenguaje. No se realizará coloreado de sintaxis. 
 ```
@@ -172,7 +175,7 @@ git  config  --global  user.email  "nombre@mail.com"
 git  init
 ```
 
-- Es recomendable crear un archivo `.gitignore` con listado de carpetas y archivos a los que no se realizará seguimiento.
+Note: Es recomendable crear un archivo `.gitignore` con listado de carpetas y archivos a los que no se realizará seguimiento.
 
 
 ### Comandos básicos
