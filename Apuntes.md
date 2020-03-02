@@ -32,22 +32,27 @@
 ## Esto es una cabecera de nivel 2 (Titulo 2 <h2>)
 ###### Esto es una cabecera de nivel 6 (Titulo 6 <h6>)
 ```
+
+---
 # Esto es una cabecera de nivel 1 (Titulo 1)
+---
 ## Esto es una cabecera de nivel 2 (Titulo 2)
+---
 ###### Esto es una cabecera de nivel 6 (Titulo 6)
+---
 
 ### Listas sin orden
 
 ```markdown
 - Item 1
 - Item 2
- - Item 2a
- - Item 2b
+    - Item 2a
+    - Item 2b
 ```
 - Item 1
 - Item 2
- - Item 2a
- - Item 2b
+    - Item 2a
+    - Item 2b
 
 ### Lista con orden
 
@@ -55,14 +60,14 @@
 1. Item 1
 2. Item 2
 3. Item 3
- - Item 3a
- - Item 3b
+    - Item 3a
+    - Item 3b
 ```
 1. Item 1
 2. Item 2
 3. Item 3
- - Item 3a
- - Item 3b
+    - Item 3a
+    - Item 3b
 
 ### Formato
 
