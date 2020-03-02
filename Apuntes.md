@@ -3,7 +3,7 @@
 ## Documentación y Control de versiones
 
 ---
-![Despliegue de aplicaciones web](http://github.com/josefilter/ApuntesMD/despliegueaplicacionesweb.png)
+![Despliegue de aplicaciones web](https://github.com/josefilter/ApuntesMD/blob/master/despliegueaplicacionesweb.png)
 <small> José Fílter Cifuentes </small>
 
 ## Índice
@@ -32,9 +32,9 @@
 ## Esto es una cabecera de nivel 2 (Titulo 2 <h2>)
 ###### Esto es una cabecera de nivel 6 (Titulo 6 <h6>)
 ```
-# Esto es una cabecera de nivel 1 (Titulo 1 <h1>)
-## Esto es una cabecera de nivel 2 (Titulo 2 <h2>)
-###### Esto es una cabecera de nivel 6 (Titulo 6 <h6>)
+# Esto es una cabecera de nivel 1 (Titulo 1)
+## Esto es una cabecera de nivel 2 (Titulo 2)
+###### Esto es una cabecera de nivel 6 (Titulo 6)
 
 ### Listas sin orden
 
@@ -75,10 +75,12 @@ __Este también se mostrará en negrita__
 
 *Puedes **combinar** ambos formatos*
 ```
-*Este texto se muestra en itálica* (Cursiva )
-_Este también se mostrará en itálica_ (Cursiva )
+*Este texto se muestra en itálica*
+
+_Este también se mostrará en itálica_
 
 **Este texto se muestra en negrita**
+
 __Este también se mostrará en negrita__
 
 *Puedes **combinar** ambos formatos*
@@ -101,7 +103,7 @@ http://github.com - automático
 
 Formato: ![Texto alternativo](url)
 ```
-![GitHub Logo](https://github.com/josefilter/ApuntesMD/descarga.png)
+![GitHub Logo](https://github.com/josefilter/ApuntesMD/blob/master/descarga.png)
 
 
 ### Citas
@@ -120,7 +122,6 @@ Como dijo Aragorn:
 
 ### Código fuente
 
-<pre>
 ```javascript
 var s = "Lenguaje javascript. Se realizará coloreado de sintaxis.";
 alert(s); 
@@ -134,14 +135,12 @@ print s
 ```
 No se indica lenguaje. No se realizará coloreado de sintaxis. 
 ```
-</pre>
 
 
 ### Menciones y Referencias
 - Menciones a usuarios:  ** @usuario **
 
 - Referencias a Issues y Pull request:  **  #numero ** 
-
 
 
 ## Control de versiones con git
