@@ -3,14 +3,8 @@
 ## Documentación y Control de versiones
 
 ---
-![Despliegue de aplicaciones web](http://jamj2000.github.io/despliegueaplicacionesweb/despliegueaplicacionesweb.png)
-<small> 2019-20 - IES Luis Vélez de Guevara - Écija - Spain </small>
-
-
-## Documentación y Control de versiones
-
-[![cc-by-sa](http://jamj2000.github.io/despliegueaplicacionesweb/cc-by-sa.png)](http://creativecommons.org/licenses/by-sa/4.0/)
-
+![Despliegue de aplicaciones web](https://github.com/josefilter/ApuntesMD/despliegueaplicacionesweb.png)
+<small> José Fílter Cifuentes </small>
 
 ## Índice
 --- 
@@ -18,12 +12,8 @@
 - ### Documentación con Markdown
 - ### Control de versiones con git
 
-<!--- Note: Nota a pie de página. -->
-
-
 
 ## Introducción
-
 
 ### En esta Unidad aprenderemos a
 
@@ -33,28 +23,31 @@
 - Instalar, configurar y utilizar un sistema de control de versiones.
 
 
-
 ## Documentación con Markdown
-
 
 ### Cabeceras
 
 ```markdown
-# Esto es una cabecera de nivel 1
-## Esto es una cabecera de nivel 1
-###### Esto es una cabecera de nivel 6
+# Esto es una cabecera de nivel 1 (Titulo 1 <h1>)
+## Esto es una cabecera de nivel 2 (Titulo 2 <h2>)
+###### Esto es una cabecera de nivel 6 (Titulo 6 <h6>)
 ```
-
+# Esto es una cabecera de nivel 1 (Titulo 1 <h1>)
+## Esto es una cabecera de nivel 2 (Titulo 2 <h2>)
+###### Esto es una cabecera de nivel 6 (Titulo 6 <h6>)
 
 ### Listas sin orden
 
 ```markdown
-* Item 1
-* Item 2
- * Item 2a
- * Item 2b
+- Item 1
+- Item 2
+ - Item 2a
+ - Item 2b
 ```
-
+- Item 1
+- Item 2
+ - Item 2a
+ - Item 2b
 
 ### Lista con orden
 
@@ -62,10 +55,14 @@
 1. Item 1
 2. Item 2
 3. Item 3
- * Item 3a
- * Item 3b
+ - Item 3a
+ - Item 3b
 ```
-
+1. Item 1
+2. Item 2
+3. Item 3
+ - Item 3a
+ - Item 3b
 
 ### Formato
 
@@ -78,6 +75,13 @@ __Este también se mostrará en negrita__
 
 *Puedes **combinar** ambos formatos*
 ```
+*Este texto se muestra en itálica* (Cursiva )
+_Este también se mostrará en itálica_ (Cursiva )
+
+**Este texto se muestra en negrita**
+__Este también se mostrará en negrita__
+
+*Puedes **combinar** ambos formatos*
 
 
 ### Enlaces
@@ -87,6 +91,7 @@ http://github.com - automático
 
 [GitHub](http://github.com)
 ```
+[GitHub](http://github.com)
 
 
 ### Imágenes
@@ -96,16 +101,21 @@ http://github.com - automático
 
 Formato: ![Texto alternativo](url)
 ```
+![GitHub Logo](https://github.com/josefilter/ApuntesMD/descarga.png)
 
 
 ### Citas
 
 ```markdown
-Como dijo Grace Hopper:
+Como dijo Aragorn:
 
-> I’ve always been more interested
-> in the future than in the past.
+> No es oro todo lo que reluce
+> ni toda la gente errante anda perdida
 ```
+Como dijo Aragorn:
+
+> No es oro todo lo que reluce
+> ni toda la gente errante anda perdida
 
 
 ### Código fuente
