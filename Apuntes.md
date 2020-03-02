@@ -46,13 +46,13 @@
 ```markdown
 - Item 1
 - Item 2
-    - Item 2a
-    - Item 2b
+  - Item 2a
+  - Item 2b
 ```
 - Item 1
 - Item 2
-    - Item 2a
-    - Item 2b
+  - Item 2a
+  - Item 2b
 
 ### Lista con orden
 
@@ -60,14 +60,14 @@
 1. Item 1
 2. Item 2
 3. Item 3
-    - Item 3a
-    - Item 3b
+   - Item 3a
+   - Item 3b
 ```
 1. Item 1
 2. Item 2
 3. Item 3
-    - Item 3a
-    - Item 3b
+   - Item 3a
+   - Item 3b
 
 ### Formato
 
@@ -79,6 +79,10 @@ _Este también se mostrará en itálica_
 __Este también se mostrará en negrita__
 
 *Puedes **combinar** ambos formatos*
+
+***Este texto está en negrita y cursiva***
+
+~~Este texto está tachado~~
 ```
 *Este texto se muestra en itálica*
 
@@ -89,6 +93,21 @@ _Este también se mostrará en itálica_
 __Este también se mostrará en negrita__
 
 *Puedes **combinar** ambos formatos*
+
+***Este texto está en negrita y cursiva***
+
+~~Este texto está tachado~~
+
+### Lista de tareas
+```markdown
+- [X] Realizar las actividades
+- [ ] Hacer un resumen
+- [ ] Estudiar el resumen
+```
+
+- [X] Realizar las actividades
+- [ ] Hacer un resumen
+- [ ] Estudiar el resumen
 
 
 ### Enlaces
@@ -146,9 +165,91 @@ No se indica lenguaje. No se realizará coloreado de sintaxis.
 
 
 ### Menciones y Referencias
-- Menciones a usuarios:  ** @usuario **
+- Menciones a usuarios: @usuari
 
-- Referencias a Issues y Pull request:  **  #numero ** 
+- Referencias a Issues y Pull request: #numero
+
+
+### Escapar caracteres
+```markdown
+Para obtener \ hay que poner \\
+Para obtener ` hay que poner \`
+Para obtener * hay que poner \*
+Para obtener _ hay que poner \_
+Para obtener { hay que poner \{
+Para obtener } hay que poner \}
+Para obtener [ hay que poner \[
+Para obtener ] hay que poner \]
+Para obtener ( hay que poner \(
+Para obtener ) hay que poner \)
+Para obtener # hay que poner \#
+Para obtener + hay que poner \+
+Para obtener - hay que poner \-
+Para obtener . hay que poner \.
+Para obtener ! hay que poner \!
+Para obtener : hay que poner \:
+Para obtener | hay que poner \|
+```
+Para obtener \ hay que poner \\
+Para obtener ` hay que poner \`
+Para obtener * hay que poner \*
+Para obtener _ hay que poner \_
+Para obtener { hay que poner \{
+Para obtener } hay que poner \}
+Para obtener [ hay que poner \[
+Para obtener ] hay que poner \]
+Para obtener ( hay que poner \(
+Para obtener ) hay que poner \)
+Para obtener # hay que poner \#
+Para obtener + hay que poner \+
+Para obtener - hay que poner \-
+Para obtener . hay que poner \.
+Para obtener ! hay que poner \!
+Para obtener : hay que poner \:
+Para obtener | hay que poner \|
+
+
+### Tablas
+```markdown
+**Tabla de multiplicar del número 5**
+numero1 | numero2 | resultado
+-- | -- | --
+5 | 0 | 0
+5 | 1 | 5
+5 | 2 | 10
+5 | 3 | 15
+5 | 4 | 20
+5 | 5 | 25
+5 | 6 | 30
+5 | 7 | 35
+5 | 8 | 40
+5 | 9 | 45
+5 | 10 | 50
+
+```
+
+
+**Tabla de multiplicar del número 5**
+numero1 | numero2 | resultado
+-- | -- | --
+5 | 0 | 0
+5 | 1 | 5
+5 | 2 | 10
+5 | 3 | 15
+5 | 4 | 20
+5 | 5 | 25
+5 | 6 | 30
+5 | 7 | 35
+5 | 8 | 40
+5 | 9 | 45
+5 | 10 | 50
+
+
+### Usando emojis
+```markdown
+Por fin he acabado la actividad :satisfied:
+```
+Por fin he acabado la actividad :satisfied:
 
 
 ## Control de versiones con git
