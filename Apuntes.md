@@ -3,7 +3,7 @@
 ## Documentación y Control de versiones
 
 ---
-![Despliegue de aplicaciones web](https://github.com/josefilter/ApuntesMD/despliegueaplicacionesweb.png)
+![Despliegue de aplicaciones web](http://github.com/josefilter/ApuntesMD/despliegueaplicacionesweb.png)
 <small> José Fílter Cifuentes </small>
 
 ## Índice
