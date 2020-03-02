@@ -228,19 +228,19 @@ Para la barra separatoria hay que poner \|
 ### Tablas
 ```markdown
 **Tabla de multiplicar del número 5**
-numero1 | numero2 | resultado
--- | -- | --
-5 | 0 | 0
-5 | 1 | 5
-5 | 2 | 10
-5 | 3 | 15
-5 | 4 | 20
-5 | 5 | 25
-5 | 6 | 30
-5 | 7 | 35
-5 | 8 | 40
-5 | 9 | 45
-5 | 10 | 50
+| numero1 | numero2 | resultado |
+| ------- | ------- | --------- |
+| 5       | 0       | 0         |
+| 5       | 1       | 5         |
+| 5       | 2       | 10        |
+| 5       | 3       | 15        |
+| 5       | 4       | 20        |
+| 5       | 5       | 25        |
+| 5       | 6       | 30        |
+| 5       | 7       | 35        |
+| 5       | 8       | 40        |
+| 5       | 9       | 45        |
+| 5       | 10      | 50        |
 
 ```
 
