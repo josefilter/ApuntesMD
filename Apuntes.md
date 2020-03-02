@@ -165,48 +165,64 @@ No se indica lenguaje. No se realizará coloreado de sintaxis.
 
 
 ### Menciones y Referencias
-- Menciones a usuarios: @usuari
+- Menciones a usuarios: @usuario
 
 - Referencias a Issues y Pull request: #numero
 
 
 ### Escapar caracteres
 ```markdown
-Para obtener \ hay que poner \\
-Para obtener ` hay que poner \`
-Para obtener * hay que poner \*
-Para obtener _ hay que poner \_
-Para obtener { hay que poner \{
-Para obtener } hay que poner \}
-Para obtener [ hay que poner \[
-Para obtener ] hay que poner \]
-Para obtener ( hay que poner \(
-Para obtener ) hay que poner \)
-Para obtener # hay que poner \#
-Para obtener + hay que poner \+
-Para obtener - hay que poner \-
-Para obtener . hay que poner \.
-Para obtener ! hay que poner \!
-Para obtener : hay que poner \:
-Para obtener | hay que poner \|
+Para la barra invertida hay que poner \\
+Para la comilla invertida hay que poner \`
+Para el asterisco hay que poner \*
+Para el guión bajo hay que poner \_
+Para la llave que abre hay que poner \{
+Para la llave que cierra hay que poner \}
+Para el corchete que abre hay que poner \[
+Para el corchete que cierra hay que poner \]
+Para el parentesis que abre hay que poner \(
+Para el parentesis que cierra hay que poner \)
+Para la almohadilla hay que poner \#
+Para el signor de sumar hay que poner \+
+Para el guion hay que poner \-
+Para el punto hay que poner \.
+Para la exclamación que cierra hay que poner \!
+Para los dos puntos hay que poner hay que poner \:
+Para la barra separatoria hay que poner \|
 ```
-Para obtener \ hay que poner \\
-Para obtener ` hay que poner \`
-Para obtener * hay que poner \*
-Para obtener _ hay que poner \_
-Para obtener { hay que poner \{
-Para obtener } hay que poner \}
-Para obtener [ hay que poner \[
-Para obtener ] hay que poner \]
-Para obtener ( hay que poner \(
-Para obtener ) hay que poner \)
-Para obtener # hay que poner \#
-Para obtener + hay que poner \+
-Para obtener - hay que poner \-
-Para obtener . hay que poner \.
-Para obtener ! hay que poner \!
-Para obtener : hay que poner \:
-Para obtener | hay que poner \|
+Para la barra invertida hay que poner \\
+
+Para la comilla invertida hay que poner \`
+
+Para el asterisco hay que poner \*
+
+Para el guión bajo hay que poner \_
+
+Para la llave que abre hay que poner \{
+
+Para la llave que cierra hay que poner \}
+
+Para el corchete que abre hay que poner \[
+
+Para el corchete que cierra hay que poner \]
+
+Para el parentesis que abre hay que poner \(
+
+Para el parentesis que cierra hay que poner \)
+
+Para la almohadilla hay que poner \#
+
+Para el signor de sumar hay que poner \+
+
+Para el guion hay que poner \-
+
+Para el punto hay que poner \.
+
+Para la exclamación que cierra hay que poner \!
+
+Para los dos puntos hay que poner hay que poner \:
+
+Para la barra separatoria hay que poner \|
 
 
 ### Tablas
@@ -230,19 +246,19 @@ numero1 | numero2 | resultado
 
 
 **Tabla de multiplicar del número 5**
-numero1 | numero2 | resultado
--- | -- | --
-5 | 0 | 0
-5 | 1 | 5
-5 | 2 | 10
-5 | 3 | 15
-5 | 4 | 20
-5 | 5 | 25
-5 | 6 | 30
-5 | 7 | 35
-5 | 8 | 40
-5 | 9 | 45
-5 | 10 | 50
+| numero1 | numero2 | resultado |
+| ------- | ------- | --------- |
+| 5       | 0       | 0         |
+| 5       | 1       | 5         |
+| 5       | 2       | 10        |
+| 5       | 3       | 15        |
+| 5       | 4       | 20        |
+| 5       | 5       | 25        |
+| 5       | 6       | 30        |
+| 5       | 7       | 35        |
+| 5       | 8       | 40        |
+| 5       | 9       | 45        |
+| 5       | 10      | 50        |
 
 
 ### Usando emojis
